@@ -10,14 +10,14 @@ class PayingsHomePage extends StatelessWidget {
      image: 'https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg?cs=srgb&dl=pexels-ella-olsson-1640772.jpg&fm=jpg',
      cost: 21,
      totalCost: 400,
-     remainingCost:379
+
    ),
    PayModel(
        name: 'bills',
        image: 'https://pirg.org/edfund/wp-content/uploads/2020/05/Bill-Payments.jpg',
        cost: 100,
        totalCost: 400,
-       remainingCost:300
+
    )
  ];
   @override

@@ -37,7 +37,7 @@ class PayingsMenu extends StatelessWidget {
               children: [
                 TextCustom(text: '-',fontSize: 15,),
                 SizedBox(width: 5,),
-                TextCustom(text: '${pay.remainingCost}',fontSize: 15,color: Colors.red,),
+                TextCustom(text: '${pay.remainingCost()}',fontSize: 15,color: Colors.red,),
               ],
             ),
           ],
